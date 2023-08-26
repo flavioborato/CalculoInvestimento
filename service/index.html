@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<title>Contas</title>
+</head>
+<body>
+	<header>
+		<h1>Calculo de Rendimento em Investiemnto</h1>  
+	</header>
+	   
+	   <section>
+			<div class="divparagrafo"> 
+			<p class="paragrafo">Quantidade de Anos:
+				<input type="number" name="quantAno" id="quantAno">
+			</p>
+			<p class="paragrafo">Valor Do Investimento:
+				<input type="number" name="invesTotal" id="invesTotal">
+			</p>
+			<p class="paragrafo">Valor Mensal :
+				<input type="number" name="invesMensal" id="invesMensal">
+			</p>
+			<p class="paragrafo">Porcentagem Rendimento:   
+				<input type="number" name="rendimento" id="rendimento"> 
+			</p>
+			<p class="botao"><input type="button" value="calcular" onclick="verificar()"></p>
+			</div>
+	   
+			<div class="res" id="res" >
+				Resultado
+			</div>
+	   </section>
+	   
+	   <footer>
+			<p> &copy; Flávio Borato </p>
+	   </footer>
+	<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="js/materialize.js" type="text/javascript"></script>   
+	<script src="js/script.js"></script>
+</body>
+</html>
